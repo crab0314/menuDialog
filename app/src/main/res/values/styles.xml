@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MenuDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+
+    <style name="chatListMenuHashIcon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_chat_list_more_item</item>
+        <item name="android:background">@drawable/bg_chat_list_more_item</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding_chat_list_more</item>
+        <item name="android:paddingLeft">@dimen/left_padding_chat_list_more</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/chat_list_more_text_color</item>
+        <item name="android:textSize">@dimen/text_size_chat_list_more</item>
+    </style>
+
+
+    <style name="chatListMenuTextOnly">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_chat_list_more_item</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/chat_list_more_text_color</item>
+        <item name="android:textSize">@dimen/text_size_chat_list_more</item>
+    </style>
+
+</resources>

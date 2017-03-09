@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestMenuDialog</string>
+
+    <string name="chat_list_create_group_chat">发起群聊</string>
+    <string name="chat_list_add_friend">添加联系人</string>
+    <string name="chat_list_scan_qr_code">扫一扫</string>
+    <string name="chat_list_close_message_notify">关闭提醒</string>
+    <string name="set_message_read">标为已读</string>
+</resources>
